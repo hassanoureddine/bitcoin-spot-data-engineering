@@ -8,8 +8,8 @@ Tasks:
 - Update Python script to load BigQuery tables 
 
 ### Prerequisite
-* Get a free API key from CoinAPI.io
-* Setup BigQuery and create Service Account
+* Get a free API key from [CoinAPI.io](https://www.coinapi.io/)
+* Setup [BigQuery](https://cloud.google.com/bigquery) and create Service Account
         
 ### Setup google-cloud for Python 
 ```
