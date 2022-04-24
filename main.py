@@ -38,7 +38,7 @@ def _load_asks_data(client):
     asks_table_id = 'btcspot.btcspot.asks'
     if 'asks' not in _load_existing_tables(client):
         schema_asks = [
-            bigquery.SchemaField("timestamp", "INTEGER", mode="REQUIRED"),
+            bigquery.SchemaField("timestamp", "TIMESTAMP", mode="REQUIRED"),
             bigquery.SchemaField("price", "FLOAT", mode="REQUIRED"),
             bigquery.SchemaField("size", "FLOAT", mode="REQUIRED"),
         ]
@@ -73,7 +73,7 @@ def _load_bids_data(client):
     bids_table_id = 'btcspot.btcspot.bids'
     if 'bids' not in _load_existing_tables(client):
         schema_asks = [
-            bigquery.SchemaField("timestamp", "INTEGER", mode="REQUIRED"),
+            bigquery.SchemaField("timestamp", "TIMESTAMP", mode="REQUIRED"),
             bigquery.SchemaField("price", "FLOAT", mode="REQUIRED"),
             bigquery.SchemaField("size", "FLOAT", mode="REQUIRED"),
         ]
