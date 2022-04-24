@@ -1,0 +1,3 @@
+pip install --upgrade google-cloud
+pip install --upgrade google-cloud-bigquery
+pip install --upgrade google-cloud-storage
