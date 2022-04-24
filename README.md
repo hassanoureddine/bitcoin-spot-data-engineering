@@ -1,7 +1,7 @@
 # bitcoin-spot-data-engineering
 
 ## Development
-typical tasks: 
+Tasks: 
 - Collect bitcoin spot historical data source
 - Use Python to interact and ingest the data source. Stored initially as CSV files.
 - Setup an account with BigQuery
