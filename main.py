@@ -1,12 +1,12 @@
-from time import sleep
-
-import config
-from coinapi_rest_v1.restapi import CoinAPIv1
+import os
 import pandas as pd
 import datetime
 
+from coinapi_rest_v1.restapi import CoinAPIv1
 from google.cloud import bigquery
-import os
+
+import config
+
 
 
 def _collect_data():
@@ -25,7 +25,7 @@ def _collect_data():
 
         df_bids = pd.DataFrame(data['bids'])
         ile_name_bids = './bids_data/' + file_index + '.csv'
-        df_asks.to_csv(ile_name_bids)
+        df_bids.to_csv(ile_name_bids)
 
 def _load_existing_tables(client):
     tables = client.list_tables(config.bq_dataset_id)
@@ -51,7 +51,6 @@ def _load_asks_data(client):
     input_files = [f for f in os.listdir('asks_data') if f.endswith(('.csv', '.CSV'))]
 
     for file in input_files:
-        sleep(5)
         df = pd.read_csv('asks_data' + '/' + file)
         df['price'] = pd.to_numeric(df['price'])
         df['size'] = pd.to_numeric(df['size'])
@@ -68,6 +67,9 @@ def _load_asks_data(client):
             print('New rows have been added to {}'.format(asks_table_id))
         else:
             print('Encountered errors while inserting rows: {errors}')
+
+        #for testing purposes
+        #break
 
 def _load_bids_data(client):
     bids_table_id = 'btcspot.btcspot.bids'
@@ -86,7 +88,6 @@ def _load_bids_data(client):
     input_files = [f for f in os.listdir('bids_data') if f.endswith(('.csv', '.CSV'))]
 
     for file in input_files:
-        sleep(5)
         df = pd.read_csv('bids_data' + '/' + file)
         df['price'] = pd.to_numeric(df['price'])
         df['size'] = pd.to_numeric(df['size'])
@@ -104,6 +105,8 @@ def _load_bids_data(client):
         else:
             print('Encountered errors while inserting rows: {errors}')
 
+        #for testing purposes
+        #break
 
 def _load_data():
     credentials_path = 'pythonbq-privateKey.json'
@@ -115,8 +118,7 @@ def _load_data():
     _load_bids_data(client)
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    # _collect_data()
+    _collect_data()
 
     _load_data()
