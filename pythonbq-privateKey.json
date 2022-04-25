@@ -1,12 +1,3 @@
 {
-  "type": "service_account",
-  "project_id": "btcspot",
-  "private_key_id": "99d52a287afd4b97f04e3088a9f0abba397dfa36",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCo0+zp1BDgs/Fp\nyboLIK8dOGCtM+5NzBtbH1qWDpUmYNZfioWSiggGzKnZSi1bhiiRhIwsk0UQLK6d\nSzYkB+D5FRdtjqgdyqVFy99b94FKWPLIwS9GXXlCLCm6ptSiC+S6pipPyJcqjmdw\nO4D+gIWtljK8CZZ8D5JEQK8UaT5hy8HnNqnfrDiVWq1ZLSRozcPK1r5pG9HcHNj0\nF0khsIrOU8EX3i4IPXP6GJ9gICHqZT1Qw17RvJc1H6WSE5At8VsMPlOofRaBcvyh\n0YSBqa7b9uQqwCmO/Tk4Jq0+vS2cehxP7qZ6Sah7sZNeeEc/C3GgHoRnLMh05Xjj\n2J70ZbKLAgMBAAECggEAOedRutMKpN7inltbTUS8+sMi2VTV12X5PfQPgCbpPdv5\nupQKgvuHjDl2yblYvCrT0DELWKB8D/ObQgSRQaNYJGX4/pDulSUzMTCe326Qr/y4\n7GThv3sAw1LdTxC4HgoBPYkPOwT739Muo/4snF1dO++nX/nT3KIEkxcyVUhRZn3K\noPBVQlGCiDc5agTMzXSQCJzpjv2gyc4aizr8KY6CIZcvk27Z2WGe839PWwzvJI4o\ndeA0dvUMDEtalMuCLpjh81s0SolKb1d9UYFlyNX4IFkFopgWbm381dELRGapmFdk\nXyeatQ7a/Nfv0e3AKuHxvaIZ2LlbAQ6pg6zTzg09QQKBgQDcIAQwHFzTKK2hvLRG\nRDrbDK9CWUwSIilZYaJ+PgTXbSnFOcNtnYOEIBC8YPH1A3ortB8HmDe+Nldopjmq\nCWKFOh2XosoyBndP/AOwhKbLlvSF50gvJS5s4s0bvOtmsgLZ8TOojp6RiYg/dVsL\nV2JV1RZ1GyCWKeIpDKW7Oq3KSwKBgQDEV7QPL+QyhhUPps+h6ImTazmBioK1nRHI\nqfl6QOlwcbzBEGCKjgzXL+V+O5RbV2rAqES2oUBXfDHyrHJX37LEe9jz2tuGEA0T\nQihhSoL85D7FVwKLT9GS+V3cdELtrcpLlVYIv/S7QVQRx+tvC+TZWn82pJclu1S8\n57cCgwKQwQKBgQDFnwTDgKMhe/KuMrESKG1CfVfW1D6ERSEkOpBckCdelIWcqCg4\nf+Izu2nrBYoT8uQ62kHFWrYo0baVoC5C5pwJicxJd3/Ze46gQ1u4nM72Fnc+xA49\nLT9JyDBmR6x7DTOcIHzFRg08EeI9PonXW8NP1beMuSb/SWjee5lKxvqBkwKBgFkr\ni7cqBPV9N6t4Euxxc6nkFKXkhiB9SUpdB9SiDmLnBNaZ3X6PrP0933hJDsO9G9qL\nkUlwSoxw9y5Da1rFWacqqAl36CMmvwl0DmrBMGQyNN/i+GDUy1V4s0wf8RWIzEsv\nc3dd1oQE022P4jj4qeKc2xGyBoM4ZO+2PMODRHMBAoGBALjfgaeVKYLDUqm+y71x\nOO8S7RTG+PAz0kNa7KlzUEqXe9xiwB05ZfolaS+TE1OiljYC9SvJId3k7FE/DPx0\n88piUEM1NuMB/OefbdowTtW1MzVJHxy1OQabnUJjfjszIEJHt+S7oEuTHaUuAcYO\nnlzB+/HC7JAlJ8AqdQvJv45P\n-----END PRIVATE KEY-----\n",
-  "client_email": "python-bigquery-btcspot@btcspot.iam.gserviceaccount.com",
-  "client_id": "110015444255436857580",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/python-bigquery-btcspot%40btcspot.iam.gserviceaccount.com"
+
 }
